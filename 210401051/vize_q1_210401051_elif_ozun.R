@@ -7,10 +7,6 @@ library(httr)
 spotify_token <- function() {
   
   # Spotify API token alma URL
-  token_url <- "https://accounts.spotify.com/api/token"
-  
-  SPOTIFY_ID = "3c9b630783f2432bb3241a41ad7c2a3d"
-  SPOTIFY_SECRET = "520afcd7623146fb9d44116fc1d3ae12"
   
   
   # Spotify uygulama bilgileri environment variable'lardan al??n??yor
